@@ -7,10 +7,10 @@ export default ({ text, data }) => {
   return (
     <Grid alignContent="center" item xs={8} sm={4} md={3}>
       <Paper elevation={3} style={{ padding: "20px" }}>
-        <Typography align="center" variant="subtitle1">
+        <Typography align="center" variant="subtitle1" style= {{ fontSize: "30px" }}>
           {text}
         </Typography>
-        <Typography align="center" variant="h5">
+        <Typography align="center" variant="h5"  style={{ fontSize: "40px", fontWeight: "500" }}>
           {data}
         </Typography>
       </Paper>

@@ -4,12 +4,12 @@ import Grid from "@material-ui/core/Grid"
 import Paper from "@material-ui/core/Paper"
 import Typography from "@material-ui/core/Typography"
 
-import Card from "../components/Card"
+import { Card, Loader } from "../components"
 
 export default () => {
   const { stats, loading, error } = useStats("https://covid19.mathdro.id/api")
 
-  if (loading) return <p>Loading...</p>
+  if (loading) return <Loader/>
   if (error)
     return <p>There was an error fetching the data. Try refreshing the page.</p>
 
