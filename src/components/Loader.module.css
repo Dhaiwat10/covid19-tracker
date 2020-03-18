@@ -4,7 +4,7 @@
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  margin: 200px auto 0 auto;
+  margin: 40vh auto 0 auto;
   animation: spin 2s linear infinite;
 }
 
